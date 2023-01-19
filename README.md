@@ -1,0 +1,1 @@
+# mtp-visual-testing-katalon
