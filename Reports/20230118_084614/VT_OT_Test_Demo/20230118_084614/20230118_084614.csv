@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VT_OT_Test_Demo,Chrome 109.0.0.0,,,2023-01-18 08:46:18,2023-01-18 08:46:29,11.230s,PASSED
+,,,,,,,
+Test Cases/Test_1,Chrome 109.0.0.0,,,2023-01-18 08:46:18,2023-01-18 08:46:29,10.988s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-18 08:46:18,2023-01-18 08:46:22,3.761s,PASSED
+"navigateToUrl(""https://platform.opentargets.org/target/ENSG00000171094"")",Chrome 109.0.0.0,,,2023-01-18 08:46:22,2023-01-18 08:46:24,2.126s,PASSED
+"takeElementScreenshotAsCheckpoint(""test_5"", findTestObject(""Object Repository/OT_Target_Know_Drugs""))",Chrome 109.0.0.0,,,2023-01-18 08:46:24,2023-01-18 08:46:29,4.694s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-18 08:46:29,2023-01-18 08:46:29,0.140s,PASSED

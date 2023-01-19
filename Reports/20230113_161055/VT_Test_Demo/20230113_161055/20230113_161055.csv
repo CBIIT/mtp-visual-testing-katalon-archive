@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VT_Test_Demo,Chrome 109.0.0.0,,,2023-01-13 16:10:59,2023-01-13 16:11:11,12.130s,PASSED
+,,,,,,,
+Test Cases/Test_2,Chrome 109.0.0.0,,,2023-01-13 16:10:59,2023-01-13 16:11:11,11.893s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-13 16:10:59,2023-01-13 16:11:02,2.980s,PASSED
+"navigateToUrl(""https://platform.opentargets.org/target/ENSG00000133703/associations"")",Chrome 109.0.0.0,,,2023-01-13 16:11:02,2023-01-13 16:11:06,4.082s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Test_2"")",Chrome 109.0.0.0,,,2023-01-13 16:11:06,2023-01-13 16:11:11,4.367s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-13 16:11:11,2023-01-13 16:11:11,0.137s,PASSED

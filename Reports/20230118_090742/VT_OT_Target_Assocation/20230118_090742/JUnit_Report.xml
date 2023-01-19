@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="VT_OT_Target_Assocation" time="7.215" tests="1" failures="0" errors="0">
+   <testsuite name="VT_OT_Target_Assocation" tests="1" failures="0" errors="0" time="7.215" skipped="0" timestamp="2023-01-18 09:07:47" hostname="cheny39 - 192.168.1.151" id="Test Suites/VT_OT_Target_Assocation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/cheny39/Documents/Katalon/VT_Test/Reports/20230118_090742/VT_OT_Target_Assocation/20230118_090742"/>
+         <property name="logFiles" value="/Users/cheny39/Documents/Katalon/VT_Test/Reports/20230118_090742/VT_OT_Target_Assocation/20230118_090742/execution0.log"/>
+         <property name="attachments" value="keyes/keyes-target_association_header.png"/>
+         <property name="hostName" value="cheny39 - 192.168.1.151"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Chrome 109.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.151"/>
+         <property name="sessionId" value="5473d6097131653e85f6f1de0dd284fa"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/Target_Association_Header" time="6.955" classname="Test Cases/Target_Association_Header" status="PASSED">
+         <system-out><![CDATA[2023-01-18 09:07:47 - [TEST_CASE][PASSED] - Test Cases/Target_Association_Header: Test Cases/Target_Association_Header
+
+2023-01-18 09:07:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-01-18 09:07:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-01-18 09:07:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-01-18 09:07:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-01-18 09:07:50 - [TEST_STEP][PASSED] - navigateToUrl("https://platform.opentargets.org/target/ENSG00000133703/associations"): Navigate to 'https://platform.opentargets.org/target/ENSG00000133703/associations' successfully
+
+2023-01-18 09:07:52 - [MESSAGE][PASSED] - Navigate to 'https://platform.opentargets.org/target/ENSG00000133703/associations' successfully
+
+2023-01-18 09:07:52 - [TEST_STEP][PASSED] - takeElementScreenshotAsCheckpoint("target_association_header", findTestObject("Object Repository/ot_target_association_header")): Taking screenshot successfully
+
+2023-01-18 09:07:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2023-01-18 09:07:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2023-01-18 09:07:54 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|keyes/keyes-target_association_header.png]]
+
+2023-01-18 09:07:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-01-18 09:07:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-01-18 09:07:47 - [TEST_SUITE][PASSED] - VT_OT_Target_Assocation: Test Cases/Target_Association_Header]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

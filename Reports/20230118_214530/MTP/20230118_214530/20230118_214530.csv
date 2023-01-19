@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MTP,,,,2023-01-18 21:45:34,2023-01-18 21:45:34,0.478s,ERROR
+,,,,,,,
+Test Cases/MTP_Visual_Test_Case,,,,2023-01-18 21:45:34,2023-01-18 21:45:34,0.014s,ERROR
+"testObjectName = ""testObjectName""",,,,2023-01-18 21:45:34,2023-01-18 21:45:34,0.001s,PASSED
+"xpath = ""/html/body/div[1]/div/div[1]/div/div[1]/div[1]/div/div[2]/div[1]""",,,,2023-01-18 21:45:34,2023-01-18 21:45:34,0.000s,PASSED
+"webURL = ""https://platform.opentargets.org/target/ENSG00000171094/associations""",,,,2023-01-18 21:45:34,2023-01-18 21:45:34,0.000s,PASSED
+"checkPointName = ""test6""",,,,2023-01-18 21:45:34,2023-01-18 21:45:34,0.000s,PASSED
+to = new com.kms.katalon.core.testobject.TestObject(testObjectName),,,,2023-01-18 21:45:34,2023-01-18 21:45:34,0.001s,PASSED
+"to.addProperty(""xpath"", EQUALS, xpath)",,,,2023-01-18 21:45:34,2023-01-18 21:45:34,0.001s,ERROR

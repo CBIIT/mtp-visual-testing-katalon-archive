@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OT,Chrome 109.0.0.0,,,2023-01-18 23:25:31,2023-01-18 23:25:40,8.758s,FAILED
+,,,,,,,
+Test Cases/OT_Visual_Test_Case,Chrome 109.0.0.0,,,2023-01-18 23:25:38,2023-01-18 23:25:40,1.879s,FAILED
+testName = $testName,Chrome 109.0.0.0,,,2023-01-18 23:25:38,2023-01-18 23:25:38,0.000s,PASSED
+xpath = $xpath,Chrome 109.0.0.0,,,2023-01-18 23:25:38,2023-01-18 23:25:38,0.000s,PASSED
+webURL = $host + $webURL,Chrome 109.0.0.0,,,2023-01-18 23:25:38,2023-01-18 23:25:38,0.001s,PASSED
+checkPointName = testName,Chrome 109.0.0.0,,,2023-01-18 23:25:38,2023-01-18 23:25:38,0.000s,PASSED
+println($testName - $xpath),Chrome 109.0.0.0,,,2023-01-18 23:25:38,2023-01-18 23:25:38,0.000s,PASSED
+to = new com.kms.katalon.core.testobject.TestObject(testName),Chrome 109.0.0.0,,,2023-01-18 23:25:38,2023-01-18 23:25:38,0.000s,PASSED
+"to.addProperty(""xpath"", EQUALS, xpath)",Chrome 109.0.0.0,,,2023-01-18 23:25:38,2023-01-18 23:25:38,0.001s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-18 23:25:38,2023-01-18 23:25:39,1.614s,PASSED
+navigateToUrl(webURL),Chrome 109.0.0.0,,,2023-01-18 23:25:39,2023-01-18 23:25:40,0.229s,FAILED

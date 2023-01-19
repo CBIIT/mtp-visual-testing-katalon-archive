@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VT_Test_Demo,Chrome 109.0.0.0,,,2023-01-17 12:51:46,2023-01-17 12:52:00,13.327s,PASSED
+,,,,,,,
+Test Cases/Test_2,Chrome 109.0.0.0,,,2023-01-17 12:51:47,2023-01-17 12:52:00,13.169s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-17 12:51:47,2023-01-17 12:51:50,2.827s,PASSED
+"navigateToUrl(""https://moleculartargets-dev.ccdi.cancer.gov/target/ENSG00000171094"")",Chrome 109.0.0.0,,,2023-01-17 12:51:50,2023-01-17 12:51:52,2.180s,PASSED
+"takeElementScreenshotAsCheckpoint(""test_3"", findTestObject(""Object Repository/Target_Protile_Know_Drugs""))",Chrome 109.0.0.0,,,2023-01-17 12:51:52,2023-01-17 12:52:00,7.773s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-17 12:52:00,2023-01-17 12:52:00,0.134s,PASSED

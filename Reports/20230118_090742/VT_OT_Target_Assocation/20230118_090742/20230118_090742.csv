@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VT_OT_Target_Assocation,Chrome 109.0.0.0,,,2023-01-18 09:07:47,2023-01-18 09:07:54,7.215s,PASSED
+,,,,,,,
+Test Cases/Target_Association_Header,Chrome 109.0.0.0,,,2023-01-18 09:07:47,2023-01-18 09:07:54,6.955s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-18 09:07:47,2023-01-18 09:07:50,3.320s,PASSED
+"navigateToUrl(""https://platform.opentargets.org/target/ENSG00000133703/associations"")",Chrome 109.0.0.0,,,2023-01-18 09:07:50,2023-01-18 09:07:52,1.700s,PASSED
+"takeElementScreenshotAsCheckpoint(""target_association_header"", findTestObject(""Object Repository/ot_target_association_header""))",Chrome 109.0.0.0,,,2023-01-18 09:07:52,2023-01-18 09:07:54,1.490s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-18 09:07:54,2023-01-18 09:07:54,0.127s,PASSED

@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VT_MTP_Target_Association,Chrome 109.0.0.0,,,2023-01-18 09:13:47,2023-01-18 09:14:05,17.516s,FAILED
+,,,,,,,
+Test Cases/MTP_Target_Association_Header,Chrome 109.0.0.0,,,2023-01-18 09:14:00,2023-01-18 09:14:05,4.218s,FAILED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-18 09:14:00,2023-01-18 09:14:03,2.132s,PASSED
+"navigateToUrl(""http://localhost:3001/target/ENSG00000171094/associations"")",Chrome 109.0.0.0,,,2023-01-18 09:14:03,2023-01-18 09:14:05,2.062s,PASSED
+"takeElementScreenshotAsCheckpoint(""target_association_header"", findTestObject(""Object Repository/mtp_target_association_header""))",Chrome 109.0.0.0,,,2023-01-18 09:14:05,2023-01-18 09:14:05,0.009s,FAILED

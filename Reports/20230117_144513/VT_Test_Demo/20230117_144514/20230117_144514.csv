@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VT_Test_Demo,Chrome 109.0.0.0,,,2023-01-17 14:45:18,2023-01-17 14:45:39,21.017s,PASSED
+,,,,,,,
+Test Cases/Test_2,Chrome 109.0.0.0,,,2023-01-17 14:45:18,2023-01-17 14:45:39,20.792s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-17 14:45:19,2023-01-17 14:45:27,8.190s,PASSED
+"navigateToUrl(""http://localhost:3000/target/ENSG00000171094"")",Chrome 109.0.0.0,,,2023-01-17 14:45:27,2023-01-17 14:45:28,1.520s,PASSED
+"takeElementScreenshotAsCheckpoint(""test_5"", findTestObject(""Object Repository/Target_Protile_Know_Drugs""))",Chrome 109.0.0.0,,,2023-01-17 14:45:28,2023-01-17 14:45:39,10.191s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-17 14:45:39,2023-01-17 14:45:39,0.646s,PASSED

@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+OT,Chrome 109.0.0.0,,,2023-01-18 23:26:32,2023-01-18 23:26:49,16.368s,PASSED
+,,,,,,,
+Test Cases/OT_Visual_Test_Case,Chrome 109.0.0.0,,,2023-01-18 23:26:33,2023-01-18 23:26:43,10.492s,PASSED
+testName = $testName,Chrome 109.0.0.0,,,2023-01-18 23:26:33,2023-01-18 23:26:33,0.011s,PASSED
+xpath = $xpath,Chrome 109.0.0.0,,,2023-01-18 23:26:33,2023-01-18 23:26:33,0.000s,PASSED
+webURL = $host + $webURL,Chrome 109.0.0.0,,,2023-01-18 23:26:33,2023-01-18 23:26:33,0.001s,PASSED
+checkPointName = testName,Chrome 109.0.0.0,,,2023-01-18 23:26:33,2023-01-18 23:26:33,0.001s,PASSED
+println($testName - $xpath),Chrome 109.0.0.0,,,2023-01-18 23:26:33,2023-01-18 23:26:33,0.002s,PASSED
+to = new com.kms.katalon.core.testobject.TestObject(testName),Chrome 109.0.0.0,,,2023-01-18 23:26:33,2023-01-18 23:26:33,0.005s,PASSED
+"to.addProperty(""xpath"", EQUALS, xpath)",Chrome 109.0.0.0,,,2023-01-18 23:26:33,2023-01-18 23:26:33,0.004s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-18 23:26:33,2023-01-18 23:26:35,2.451s,PASSED
+navigateToUrl(webURL),Chrome 109.0.0.0,,,2023-01-18 23:26:35,2023-01-18 23:26:40,4.453s,PASSED
+Thread.sleep(2000),Chrome 109.0.0.0,,,2023-01-18 23:26:40,2023-01-18 23:26:42,2.010s,PASSED
+"takeElementScreenshotAsCheckpoint(checkPointName, to)",Chrome 109.0.0.0,,,2023-01-18 23:26:42,2023-01-18 23:26:43,1.169s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-18 23:26:43,2023-01-18 23:26:43,0.115s,PASSED
+,,,,,,,
+Test Cases/OT_Visual_Test_Case,Chrome 109.0.0.0,,,2023-01-18 23:26:43,2023-01-18 23:26:49,5.592s,PASSED
+testName = $testName,Chrome 109.0.0.0,,,2023-01-18 23:26:43,2023-01-18 23:26:43,0.000s,PASSED
+xpath = $xpath,Chrome 109.0.0.0,,,2023-01-18 23:26:43,2023-01-18 23:26:43,0.000s,PASSED
+webURL = $host + $webURL,Chrome 109.0.0.0,,,2023-01-18 23:26:43,2023-01-18 23:26:43,0.001s,PASSED
+checkPointName = testName,Chrome 109.0.0.0,,,2023-01-18 23:26:43,2023-01-18 23:26:43,0.000s,PASSED
+println($testName - $xpath),Chrome 109.0.0.0,,,2023-01-18 23:26:43,2023-01-18 23:26:43,0.001s,PASSED
+to = new com.kms.katalon.core.testobject.TestObject(testName),Chrome 109.0.0.0,,,2023-01-18 23:26:43,2023-01-18 23:26:43,0.000s,PASSED
+"to.addProperty(""xpath"", EQUALS, xpath)",Chrome 109.0.0.0,,,2023-01-18 23:26:43,2023-01-18 23:26:43,0.000s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-18 23:26:43,2023-01-18 23:26:45,1.437s,PASSED
+navigateToUrl(webURL),Chrome 109.0.0.0,,,2023-01-18 23:26:45,2023-01-18 23:26:46,1.208s,PASSED
+Thread.sleep(2000),Chrome 109.0.0.0,,,2023-01-18 23:26:46,2023-01-18 23:26:48,2.003s,PASSED
+"takeElementScreenshotAsCheckpoint(checkPointName, to)",Chrome 109.0.0.0,,,2023-01-18 23:26:48,2023-01-18 23:26:49,0.815s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-18 23:26:49,2023-01-18 23:26:49,0.112s,PASSED

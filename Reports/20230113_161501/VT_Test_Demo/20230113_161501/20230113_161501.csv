@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+VT_Test_Demo,Chrome 109.0.0.0,,,2023-01-13 16:15:05,2023-01-13 16:15:17,11.989s,PASSED
+,,,,,,,
+Test Cases/Test_2,Chrome 109.0.0.0,,,2023-01-13 16:15:05,2023-01-13 16:15:17,11.644s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-13 16:15:05,2023-01-13 16:15:10,4.906s,PASSED
+"navigateToUrl(""https://moleculartargets.ccdi.cancer.gov/target/ENSG00000145335/associations"")",Chrome 109.0.0.0,,,2023-01-13 16:15:10,2023-01-13 16:15:12,1.522s,PASSED
+"takeFullPageScreenshotAsCheckpoint(""Test_2"")",Chrome 109.0.0.0,,,2023-01-13 16:15:12,2023-01-13 16:15:16,4.673s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-13 16:15:16,2023-01-13 16:15:17,0.140s,PASSED

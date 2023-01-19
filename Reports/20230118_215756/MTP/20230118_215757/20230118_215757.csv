@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+MTP,Chrome 109.0.0.0,,,2023-01-18 21:58:01,2023-01-18 21:58:07,6.074s,PASSED
+,,,,,,,
+Test Cases/MTP_Visual_Test_Case,Chrome 109.0.0.0,,,2023-01-18 21:58:01,2023-01-18 21:58:07,5.884s,PASSED
+"testObjectName = ""testObjectName""",Chrome 109.0.0.0,,,2023-01-18 21:58:01,2023-01-18 21:58:01,0.001s,PASSED
+"xpath = ""/html/body/div[1]/div/div[1]/div/div[1]/div[1]/div/div[2]/div[1]""",Chrome 109.0.0.0,,,2023-01-18 21:58:01,2023-01-18 21:58:01,0.001s,PASSED
+"webURL = ""https://platform.opentargets.org/target/ENSG00000171094/associations""",Chrome 109.0.0.0,,,2023-01-18 21:58:01,2023-01-18 21:58:01,0.001s,PASSED
+"checkPointName = ""test6""",Chrome 109.0.0.0,,,2023-01-18 21:58:01,2023-01-18 21:58:01,0.001s,PASSED
+to = new com.kms.katalon.core.testobject.TestObject(testObjectName),Chrome 109.0.0.0,,,2023-01-18 21:58:01,2023-01-18 21:58:01,0.006s,PASSED
+"to.addProperty(""xpath"", EQUALS, xpath)",Chrome 109.0.0.0,,,2023-01-18 21:58:01,2023-01-18 21:58:01,0.004s,PASSED
+"openBrowser("""")",Chrome 109.0.0.0,,,2023-01-18 21:58:01,2023-01-18 21:58:04,2.829s,PASSED
+navigateToUrl(webURL),Chrome 109.0.0.0,,,2023-01-18 21:58:04,2023-01-18 21:58:05,1.385s,PASSED
+"takeElementScreenshotAsCheckpoint(checkPointName, to)",Chrome 109.0.0.0,,,2023-01-18 21:58:05,2023-01-18 21:58:07,1.299s,PASSED
+closeBrowser(),Chrome 109.0.0.0,,,2023-01-18 21:58:07,2023-01-18 21:58:07,0.113s,PASSED
